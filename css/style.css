@@ -1,0 +1,38 @@
+table{
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px  4px 8px rgba(0,0,0,0.1);
+
+}
+th,td{
+    border: 1px solid none;
+    width: 15%;
+    border-bottom: 1px solid #ddd;
+    align-items: start;
+    height: 50px;
+}
+th{
+    background-color: rgb(76, 170, 76);
+    height: 40px;
+}
+button{
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    border: none;
+    background-color: rgb(87, 87, 228);
+    
+}
+button:nth-child(2){
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    background-color: rgb(230, 36, 36);
+
+}
